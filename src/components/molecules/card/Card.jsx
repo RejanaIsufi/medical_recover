@@ -1,5 +1,4 @@
-import React from 'react'
-import Content from '../content/Content'
+// import React from 'react'
 import './card.css'
 import Heading from '../../atoms/heading/Heading'
 import Paragraph from '../../atoms/paragraph/Paragraph'

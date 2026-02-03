@@ -20,7 +20,7 @@ const StatItem = ({ value, label, suffix = "" }) => {
         if (ref.current) observer.observe(ref.current);
 
         return () => observer.disconnect();
-    }, []);
+    }, );
 
     const animateCount = () => {
         let start = 0;
