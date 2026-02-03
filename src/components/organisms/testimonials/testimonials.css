@@ -1,0 +1,32 @@
+.testimonialsCard {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.swipe {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    display: flex;
+    justify-content: center;
+}
+
+.swiper-wrapper {
+    margin: auto;
+    margin-left: 80%;
+    height: 250px;
+}
+
+.swiper-slide {
+    height: 250px;
+}

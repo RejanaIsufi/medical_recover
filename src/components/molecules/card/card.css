@@ -1,0 +1,47 @@
+.card {
+    width: 328px;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #E74040;
+}
+
+.title {
+    width: 160px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    text-align: start;
+    color: #252B42;
+
+}
+
+.line {
+    width: 55px;
+    padding: 1.5px 0px;
+    background-color: #E74040;
+
+}
+
+.parag {
+    width: 222px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+}

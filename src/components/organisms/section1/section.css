@@ -1,0 +1,63 @@
+.container3 {
+    width: 100%;
+    height: 650px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentsec {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buttoni2 {
+    display: none;
+}
+
+.linesec {
+    width: 70px;
+    height: 5px;
+    background-color: #E74040;
+    margin-bottom: 20px;
+
+}
+
+.paragCl {
+    width: 430px;
+    height: 60px;
+    opacity: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: start;
+    color: #737373;
+}
+
+.button {
+    background-color: transparent;
+    color: #ff685b;
+    padding: 10px 1px;
+    border-radius: 5px;
+}
+
+.sectionHeading {
+    width: 542px;
+    height: 60px;
+    opacity: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-align: start;
+}

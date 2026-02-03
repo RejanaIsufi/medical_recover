@@ -1,0 +1,72 @@
+.profile-card {
+    width: 250px;
+    height: 340px;
+    background: #fff;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.profile-image {
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+.profile-content {
+    padding: 20px;
+}
+
+.profile-name {
+    margin: 10px 0 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+}
+
+.profile-role {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 16px;
+}
+
+.profile-socials {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.profile-socials a {
+    width: 36px;
+    height: 36px;
+    background: #ff6f91;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.profile-socials a:hover {
+    transform: translateY(-3px);
+    background: #e0557a;
+}
+
+.profile-socials {
+    color: #e0557a;
+}

@@ -1,0 +1,27 @@
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.buttoni {
+
+    background-color: #ff685b;
+    color: white;
+    padding: 15px 30px;
+    border: 1px;
+    border-radius: 5px;
+
+}
+
+.parag {
+    width: 496px;
+    height: 60px;
+    opacity: 1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    text-align: start;
+    color: #737373;
+}

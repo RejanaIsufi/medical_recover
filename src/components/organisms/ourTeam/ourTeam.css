@@ -1,0 +1,19 @@
+.ourTeam {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.profile_cards {
+    width: 80%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}

@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    background: #FAFAFA;
+    padding-top: 20px;
+}
+
+.navbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1e1e1e;
+}
+
+.logo span {
+    color: #1e1e1e;
+}
+
+/* Nav links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links li {
+    font-size: 14px;
+    font-weight: 500;
+    color: #737373;
+    cursor: pointer;
+}
+
+.nav-links li.active {
+    color: #1e1e1e;
+    font-weight: 600;
+}
+
+/* Auth section */
+.auth {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    gap: 16px;
+}
+
+/* LoginButton.css */
+.button {
+    background-color: transparent;
+    border: none;
+    color: #ff685b;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    transition: background 0.2s ease;
+}
+
+.button:hover {
+    color: #ff4f3f;
+}
+
+.button2 {
+    background-color: #ff685b;
+    color: white;
+    padding: 15px 18px;
+}

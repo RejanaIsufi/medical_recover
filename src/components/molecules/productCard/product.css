@@ -1,0 +1,124 @@
+.product-card {
+    width: 33.3%;
+    background: #fff;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.card-image {
+    position: relative;
+    background: #bfe9f2;
+}
+
+.card-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    background: #ff685b;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.card-actions {
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 12px;
+}
+
+.card-actions span {
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.category {
+    color: #ff685b;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rating {
+    background: #26335d;
+    color: #fff;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 20px;
+    margin-left: 140px;
+}
+
+.card-content h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.card-content p {
+    font-size: 14px;
+    color: #737373;
+    margin-bottom: 14px;
+}
+
+.sales {
+    font-size: 14px;
+    font-weight: 600;
+    color: #737373;
+    margin-bottom: 10px;
+}
+
+.prices {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #bdbdbd;
+}
+
+.new-price {
+    color: #2dc071;
+    font-weight: 700;
+}
+
+.learn-more {
+    border: 1px solid #ff685b;
+    background: transparent;
+    color: #ff685b;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
