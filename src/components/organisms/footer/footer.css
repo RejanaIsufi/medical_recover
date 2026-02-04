@@ -1,0 +1,85 @@
+.footer {
+  background-color: #ffffff;
+  border-top: 1px solid #f1f1f1;
+  font-family: "Inter", sans-serif;
+  color: #252b42;
+}
+
+.footer-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.footer-column a {
+  font-size: 14px;
+  color: #737373;
+  text-decoration: none;
+  text-align: start;
+}
+
+.footer-column a:hover {
+  color: #ff6a5c;
+}
+
+.contact .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  color: #737373;
+}
+
+.contact svg {
+  color: #ff6a5c;
+  margin-top: 3px;
+}
+
+.footerB{
+    width: 100%;
+    background-color: #fafafa;
+}
+.footer-bottom {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #737373;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  color: #ff6a5c;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
