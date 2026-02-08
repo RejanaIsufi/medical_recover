@@ -1,0 +1,71 @@
+.joinUs{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color: white ;
+    gap: 50px;
+}
+
+.joinUsContent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    gap:15px;
+}
+.joinSpan{
+ font-family: "Montserrat", sans-serif;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #FF685B;
+}
+
+.parag{
+    font-family: "Montserrat", sans-serif;
+    width: 469px;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0.2px;
+text-align: center;
+color: #737373;
+
+
+}
+.inputi{
+    display: flex;
+    justify-content: center;
+    width:100%;
+   
+}
+.inputi input{
+    width:34%;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 2px solid #9f9f9f41;
+    padding-left: 18px;
+background-color: #F9F9F9;
+    color: gray;             
+    outline: none; 
+}
+.inputi input ::placeholder{
+    font-family: "Montserrat", sans-serif;
+    color:gray;
+
+}
+
+.inputi button{
+padding:16px 25px;
+background-color: #FF685B;
+color:white;
+border-bottom-right-radius: 5px;
+border-top-right-radius: 5px;
+    border: 2px solid #9f9f9f41;
+}
