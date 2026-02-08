@@ -5,7 +5,6 @@ import Section from '../organisms/section1/Section'
 import Departament from '../organisms/ourDepartament/Departament'
 import Testimonials from '../organisms/testimonials/Testimonials'
 import OurTeam from '../organisms/ourTeam/OurTeam'
-import JoinUs from '../organisms/joinUs/JoinUs'
 
 function Home() {
     return (
@@ -17,7 +16,6 @@ function Home() {
             <Departament />
             <Testimonials />
             <OurTeam />
-            <JoinUs/>
         </div>
     )
 }

@@ -1,12 +1,10 @@
 import React from 'react'
 import './span.css'
 
-function Span({ span,className }) {
+function Span({ span }) {
     return (
         <div>
-            <h5 className={`span ${className}`}>
-            {span}
-        </h5>
+            <h5 className='span'>{span}</h5>
         </div>
     )
 }

@@ -17,12 +17,12 @@ function Content({
     lineClass,
     headingClass,
     button2
-    , btn1, btn2, buttoni, paragClass,spanCl
+    , btn1, btn2, buttoni, paragClass
 }) {
     return (
         <div className={classN}>
 
-            {showSpan && <Span className={spanCl} span={span} />}
+            {showSpan && <Span span={span} />}
 
             <div>
                 {showLine && <Line classN={lineClass} />}
