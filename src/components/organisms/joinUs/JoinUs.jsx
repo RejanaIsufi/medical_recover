@@ -13,7 +13,7 @@ function JoinUs() {
          span="Newsletter "
             title="JOIN US"
             paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit auctor dui, sed efficitur ipsum."
-       paragClass="parag"
+       paragClass="paragraphJoin"
        />
 <div className="inputi">
 
@@ -26,25 +26,3 @@ function JoinUs() {
 }
 
 export default JoinUs
-
-
-// // import React from 'react'
-// import './joinUs.css'
-// import Content from '../../molecules/content/Content'
-
-// function JoinUs(spanCl) {
-//   return (
-//     <div className='joinUs'>
-
-// <span>Newsletter</span>
-//        <Content  
-//        classN="joinUsContent"
-//             title="JOIN US"
-//             paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec suscipit auctor dui, sed efficitur ipsum."
-//             paragClass="parag"
-//        />
-//     </div>
-//   )
-// }
-
-// export default JoinUs

@@ -27,7 +27,7 @@ text-align: center;
 color: #FF685B;
 }
 
-.parag{
+.joinUsContent .paragraphJoin{
     font-family: "Montserrat", sans-serif;
     width: 469px;
 font-weight: 400;
@@ -36,9 +36,8 @@ line-height: 20px;
 letter-spacing: 0.2px;
 text-align: center;
 color: #737373;
-
-
 }
+
 .inputi{
     display: flex;
     justify-content: center;
